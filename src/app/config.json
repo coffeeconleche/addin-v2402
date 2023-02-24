@@ -18,7 +18,7 @@
   "dev": {
     "root": "addinTest",
     "dist": {
-      "host": "https://cdn.jsdelivr.net/gh/coffeeconleche/addin-geotab/addin-test/dist/addinTest.html"
+      "host": "https://cdn.jsdelivr.net/gh/coffeeconleche/addin-v2402/dist/"
     }
   }
 }
