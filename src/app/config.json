@@ -18,7 +18,7 @@
   "dev": {
     "root": "addinTest",
     "dist": {
-      "host": "https://cdn.jsdelivr.net/gh/coffeeconleche/addin-v2402/dist/"
+      "host": "https://cdn.jsdelivr.net/gh/coffeeconleche/addin-v2402@main/dist/"
     }
   }
 }

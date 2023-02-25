@@ -4,12 +4,12 @@
   "version": "0.0.1",
   "items": [
     {
-      "url": "https://cdn.jsdelivr.net/gh/coffeeconleche/addin-v2402/dist/addinTest.html",
+      "url": "https://cdn.jsdelivr.net/gh/coffeeconleche/addin-v2402@main/dist/addinTest.html",
       "path": "DriveAppLink/",
       "menuName": {
         "en": "addin test"
       },
-      "icon": "https://cdn.jsdelivr.net/gh/coffeeconleche/addin-v2402/dist/images/icon.svg"
+      "icon": "https://cdn.jsdelivr.net/gh/coffeeconleche/addin-v2402@main/dist/images/icon.svg"
     }
   ],
   "onStartup": true,
