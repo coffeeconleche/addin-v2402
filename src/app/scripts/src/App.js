@@ -45,10 +45,9 @@ const App = ({ device, session, api }) => {
   return (
     <div>
       <h1>Diego - Primer addin de Geotab Drive!</h1>
-
+      Test cambio build!
       <h1>Bienvenido {session.userName}!</h1>
       <h1>El vehículo que seleccionaste es {device.name}</h1>
-
       <button
         className="boton-odometro"
         type="button"
