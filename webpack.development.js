@@ -43,7 +43,7 @@ module.exports = merge(common, {
   plugins: [
     new ESLintPlugin({
       extensions: ["js"],
-      exclude: ["/node_modules/", "/.dev/"],
+      exclude: ["**/node_modules/**", "/.dev/"],
       formatter: "stylish",
     }),
     new CopyWebpackPlugin({

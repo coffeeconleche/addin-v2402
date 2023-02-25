@@ -1,5 +1,8 @@
 import React from "react";
+import Switch from "@mui/material/Switch";
+
 const App = ({ device, session, api }) => {
+  const label = { inputProps: { "aria-label": "Switch demo" } };
   //console.log(props);
   const [openDiv, setOpenDiv] = React.useState(false);
   const [odometroDiv, setOdometroDiv] = React.useState("");
@@ -44,6 +47,12 @@ const App = ({ device, session, api }) => {
   const Odometro = () => <h1>El odómetro es {odometroDiv}</h1>;
   return (
     <div>
+      <div>
+        <Switch {...label} defaultChecked />
+        <Switch {...label} />
+        <Switch {...label} disabled defaultChecked />
+        <Switch {...label} disabled />
+      </div>
       <h1>Diego - Primer addin de Geotab Drive!</h1>
       Test cambio build!
       <h1>Bienvenido {session.userName}!</h1>
