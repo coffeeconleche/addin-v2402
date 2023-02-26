@@ -63,6 +63,7 @@ geotab.addin.addinTest = function () {
 
       //ReactDOM.render(<App />, document.getElementById("app"));
       const root = ReactDOM.createRoot(document.getElementById("app"));
+      //root.render(<App />);
       freshApi.getSession((session) => {
         freshApi.call(
           "Get",
@@ -79,13 +80,14 @@ geotab.addin.addinTest = function () {
 
             //Se comentan porque no se usa el addinTesy.html, sino React
 
-            elAddin.querySelector("#addinTest-driver").textContent =
-              session.userName;
-            elAddin.querySelector("#addinTest-vehicle").textContent =
-              device.name;
+            // elAddin.querySelector("#addinTest-driver").textContent =
+            //   session.userName;
+            // elAddin.querySelector("#addinTest-vehicle").textContent =
+            //   device.name;
 
             // // show main content
-            elAddin.className = elAddin.className.replace("hidden", "").trim();
+            // elAddin.className = elAddin.className.replace("hidden", "").trim();
+            //const root = ReactDOM.createRoot(document.getElementById("app"));
             root.render(
               <App device={device} session={session} api={freshApi} />
             );
