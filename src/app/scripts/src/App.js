@@ -49,14 +49,71 @@ const App = ({ device, session, api }) => {
     <div>
       <div>
         <Switch {...label} defaultChecked />
+
         <Switch {...label} />
+
         <Switch {...label} disabled defaultChecked />
+
         <Switch {...label} disabled />
       </div>
       <h1>Diego - Primer addin de Geotab Drive!</h1>
       Test cambio build!
       <h1>Bienvenido {session.userName}!</h1>
       <h1>El vehículo que seleccionaste es {device.name}</h1>
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
+      Prueba scroll
+      <br />
       <button
         className="boton-odometro"
         type="button"
