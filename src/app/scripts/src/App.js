@@ -68,6 +68,9 @@ const App = ({ device, session, api }) => {
       <br />
       Prueba scroll
       <br />
+      <div>
+        <Switch {...label} defaultChecked />
+      </div>
       Prueba scroll
       <br />
       Prueba scroll
