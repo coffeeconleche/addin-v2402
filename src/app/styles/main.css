@@ -1,3 +1,6 @@
+.react_main {
+  overflow-y: auto;
+}
 .hidden {
   display: none !important;
 }
