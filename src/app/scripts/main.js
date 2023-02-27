@@ -10,7 +10,7 @@ geotab.addin.addinTest = function () {
 
   // the root container
   var elAddin = document.getElementById("app");
-
+  const root = ReactDOM.createRoot(document.getElementById("react"));
   return {
     /**
      * Startup Add-Ins are executed when a driver logs in to the Drive App for the first time.
@@ -62,8 +62,7 @@ geotab.addin.addinTest = function () {
       // getting the current user to display in the UI
 
       //ReactDOM.render(<App />, document.getElementById("app"));
-      const root = ReactDOM.createRoot(document.getElementById("app"));
-      //root.render(<App />);
+
       freshApi.getSession((session) => {
         freshApi.call(
           "Get",
@@ -85,8 +84,8 @@ geotab.addin.addinTest = function () {
             // elAddin.querySelector("#addinTest-vehicle").textContent =
             //   device.name;
 
-            // // show main content
-            // elAddin.className = elAddin.className.replace("hidden", "").trim();
+            // show main content
+            elAddin.className = elAddin.className.replace("hidden", "").trim();
             //const root = ReactDOM.createRoot(document.getElementById("app"));
             root.render(
               <App device={device} session={session} api={freshApi} />

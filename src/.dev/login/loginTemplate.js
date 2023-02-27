@@ -4,8 +4,6 @@ import xIcon from "../images/close-round.svg";
 import addinIcon from "../../app/images/icon.svg";
 let loginExample = `
 
-   <div>xd</div>
-
 <style>
     body {
         height: initial;
